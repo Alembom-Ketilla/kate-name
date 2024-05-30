@@ -1,0 +1,62 @@
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: deeppink;
+  display: grid;
+  grid-template-columns: 150px 1fr 150px 80px;
+  padding-top: 5px;
+  padding-bottom: 11px;
+  align-items: center;
+  
+}
+.search-button{
+  width: 30px;
+}
+.cart-photo{
+  width: 45px;
+  height: 60px;
+  align-items: end;
+}
+.commerce{
+  font-size: 25px;
+  padding-left: 14px;
+  font-weight: 700;
+  color: blue;
+}
+.search-info{
+  display: flex;
+  padding-right: 5px;
+ 
+}
+.search{
+ border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex: 1;
+  font-weight: 700;
+  text-align: center;
+  color: magenta;
+  border: 1px solid magenta;
+  
+}
+.returnInfo{
+  padding-left: 14px;
+  font-size: 30px;
+  color: blue;
+}
+.cart-data{
+  display: flex;
+  position: relative;
+  padding-right: 2px;
+  align-items: end;
+}
+.search::placeholder{
+text-align: center;
+font-weight: 700;
+font-size: 15px;
+color: magenta;
+}
+.add-cart-info{
+  position: absolute;
+  text-decoration: none;
+}

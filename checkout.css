@@ -1,0 +1,136 @@
+.check-header{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 80px;
+  width: 100%;
+  background-color: deeppink;
+  align-items: center;
+  padding-top: -4px;
+  
+}
+.go-back-deco{
+  text-decoration: none;
+  color: blue;
+  padding-left: 100px;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: -3px;
+}
+.check-info{
+  padding-left: 20%;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.column1,.column2{
+  display: flex;
+  border: 1px solid gray;
+  margin-bottom: 4px;
+}
+.image{
+  width: 200px;
+}
+.image-info {
+  margin-left: 5%;
+  margin-top: 40px;
+}
+.image-info h3{
+  margin-left: 5%;
+}
+.delivery h4,.image-info h4,
+.image-price,.column2-info h2{
+  color: magenta;
+  font-weight: 700;
+}
+
+.general{
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  column-gap: 4px;
+  margin-top: 10px;
+}
+.column2-info{
+  min-height: 40vh;
+
+}
+
+.dress-name,.delete,.update{
+  color: blue ;
+}
+.delete,.update{
+  cursor: pointer;
+}
+.shipping{
+  display: block;
+  color: magenta;
+  margin-left: 17%;
+}
+.delivery{
+  margin-left: 7%;
+}
+.cart-summary{
+  display: flex;
+  margin-left: 30px;
+}
+.column2-info h3{
+  margin-left: 30px;
+  color: magenta;
+}
+.item-info,.shipping-info,.total-info,.extimated-tax-info
+,.total-order-info{
+  display: flex;
+  margin-top: 16px;
+}
+.item,.ship,.total,.extimated-tax,.total-order{
+  flex: 1;
+   
+}
+.item-price,.shipping-price,.total-before-tax-price
+,.extimated-tax-price,.total-order-price{
+  margin-right: 45px;
+  color: magenta;
+  font-weight: 700;
+}
+.total-order-price{
+  color: red;
+}
+.total-order-price{
+  border-top: 1px;
+}
+.column2-info{
+  border: 1px solid rgb(14, 9, 9);
+  max-height: 38%;
+}
+.cart-data{
+  margin-left: 4%;
+}
+.total-order-info{
+  border-top: 1px solid gray;
+}
+.button-info{
+  margin-left: 20%;
+  padding-right: 43px;
+  padding-left: 43px;
+  padding-top: 7px;
+  border-radius: 4px;
+  border: none;
+  padding-bottom: 7px;
+  background-color: magenta;
+  margin-top: 10px;
+  color: blue;
+  font-weight: 700;
+}
+.total-order{
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+

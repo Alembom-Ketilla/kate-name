@@ -1,0 +1,31 @@
+.add-button{
+  background-color: magenta;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin-left: 100px;
+}
+.image{
+  width: 80%;
+}
+
+.dresses-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  margin-top: 15px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: lightgrey;
+}
+.dress-one,.dress-two,.dress-three,.dress-four{
+  border: 1px solid gray;
+}
+ 
